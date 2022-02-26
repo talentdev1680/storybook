@@ -78,7 +78,7 @@ export const fetchTasks = createAsyncThunk('todos/fetchTodos', async () => {
      },
   });
   
-  // The actions contained in the slice are exported for usage in our components
+  // The actions contained in the slice are exported for usage in the components
   export const { updateTaskState } = TasksSlice.actions;
   
   /*
